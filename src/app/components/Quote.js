@@ -4,9 +4,14 @@ import '../globals.css'; // Use an absolute path
 
 
 function QuoteComponent() {
+
+  // State variables for storing the current fact and a boolean indicating if it's a fun fact.
+
   const [fact, setFact] = useState('');
   const [isFunFact, setIsFunFact] = useState(false);
 
+
+  // Function to fetch advice from an external API.
   const fetchInspiration = () => {
     
     fetch('https://api.adviceslip.com/advice')
@@ -15,25 +20,27 @@ function QuoteComponent() {
       .catch((error) => console.error('Error fetching data:', error));
   };
 
- 
+  // useEffect hook to fetch the advice initially and whenever it changes.
   useEffect(() => {
-    if (!isFunFact) { // Adjust the condition to fetch advice initially
-      fetchInspiration();
+    if (!isFunFact) {  // Check if we should fetch advice.
+      fetchInspiration(); // Fetch advice if not displaying a fun fact.
     }
   }, [isFunFact]);
 
+   // Function to display a random fun fact from the imported list.
   const getRandomFact = () => {
-    const randomIndex = Math.floor(Math.random() * funFacts.length);
-    setFact(funFacts[randomIndex].fact);
-    setIsFunFact(true);
+    const randomIndex = Math.floor(Math.random() * funFacts.length); // Generate a random index.
+    setFact(funFacts[randomIndex].fact); // Set the state to the random fun fact.
+    setIsFunFact(true);   // Update the boolean to showing fun fact.
   };
 
+  // Function to fetch and display new advice.
   const getInspiration = () => {
-    setIsFunFact(false);
-    fetchInspiration(); // Fetch a new inspiration when this button is clicked
+    setIsFunFact(false); // Set the state to display advice.
+    fetchInspiration(); // Fetch the advice.
   };
 
-   // Initial fetch for both "Advice" and "Fun Fact"
+
 
 
   return (
@@ -52,6 +59,8 @@ function QuoteComponent() {
 
         </>
       )}
+
+      {/*Button to fetch a new fun fact or advice */}
       <button className= "inspiration-button" onClick={isFunFact ? getRandomFact : getInspiration}>
         {isFunFact ? 'Get Another Fun Fact' : 'Get Another Advice'}
       </button>

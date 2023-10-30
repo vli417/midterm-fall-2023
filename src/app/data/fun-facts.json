@@ -1,16 +1,66 @@
 [
-    {
-      "title": "Did You Know?",
-      "fact": "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible."
-    },
-    {
-      "title": "Fun Fact",
-      "fact": "Octopuses have three hearts: two pump blood to the gills, and one pumps it to the rest of the body."
-    },
-    {
-      "title": "Trivia",
-      "fact": "The world's largest desert is not the Sahara; it's Antarctica."
-    }
-    
-  ]
-  
+  {
+    "title": "Did You Know?",
+    "fact": "Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible."
+  },
+  {
+    "title": "Fun Fact",
+    "fact": "Octopuses have three hearts: two pump blood to the gills, and one pumps it to the rest of the body."
+  },
+  {
+    "title": "Trivia",
+    "fact": "The world's largest desert is not the Sahara; it's Antarctica."
+  },
+  {
+    "title": "Amazing Fact",
+    "fact": "Bananas are berries, but strawberries are not!"
+  },
+  {
+    "title": "Did You Know?",
+    "fact": "A group of flamingos is called a 'flamboyance'."
+  },
+  {
+    "title": "Fun Fact",
+    "fact": "Cows have best friends and can become stressed when separated from them."
+  },
+  {
+    "title": "Trivia",
+    "fact": "The shortest war in history was between Britain and Zanzibar on August 27, 1896. Zanzibar surrendered after 38 minutes."
+  },
+  {
+    "title": "Amazing Fact",
+    "fact": "A day on Venus lasts longer than a year on Venus."
+  },
+  {
+    "title": "Did You Know?",
+    "fact": "Penguins can't taste sweet or savory flavors, only salty and sour."
+  },
+  {
+    "title": "Fun Fact",
+    "fact": "The word 'alphabet' comes from the first two letters of the Greek alphabet: alpha and beta."
+  },
+  {
+    "title": "Trivia",
+    "fact": "Your taste buds have a lifespan of about 10 to 14 days."
+  },
+  {
+    "title": "Amazing Fact",
+    "fact": "Wombat poop is cube-shaped to prevent it from rolling away."
+  },
+  {
+    "title": "Did You Know?",
+    "fact": "The Eiffel Tower can grow by more than 6 inches during hot weather, due to the expansion of iron."
+  },
+  {
+    "title": "Fun Fact",
+    "fact": "The unicorn is the national animal of Scotland."
+  },
+  {
+    "title": "Trivia",
+    "fact": "The world's smallest bone is in your ear, called the stapes bone."
+  },
+  {
+    "title": "Amazing Fact",
+    "fact": "Humans and giraffes have the same number of neck vertebrae. Despite their long necks, giraffes have only seven."
+  }
+]

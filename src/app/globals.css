@@ -9,6 +9,7 @@ body {
   transition: background-color 2s ease; /* Background color transition animation */
 }
 
+/* This styles the main box where all our stuff will be. */
 .app {
   border-radius: 8px;
   padding: 20px;
@@ -17,10 +18,13 @@ body {
   transition: background-color 0.5s ease; /* Container background color transition animation */
 }
 
+/* Makes the inspiration box have cool gradient colors and white text. */
 .inspiration {
   background: linear-gradient(to right, #ff6b6b, #6b47ff);
   color: white;
 }
+
+/* Makes the fun-fact box have different cool gradient colors and black text. */
 
 .fun-fact {
   background: linear-gradient(to right, #1e90ff, #ff5733); /* Blue-Orange Gradient */
@@ -101,8 +105,8 @@ body {
 
 /* Styling for the card titles */
 .card-title {
-  font-size: 24px; /* Adjust font size as needed */
-  font-weight: bold; /* Bold font weight */
+  font-size: 24px; 
+  font-weight: bold; 
   text-transform: uppercase; /* Uppercase text */
   animation: wobble 0.3s infinite alternate; /* Wobble animation effect */
 }
@@ -112,7 +116,7 @@ body {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(5deg); /* Adjust the wobble angle */
+    transform: rotate(5deg); /* wobble angle */
   }
 }
 
@@ -123,10 +127,10 @@ body {
   width: 0;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing-pausing 3s infinite; /* Adjust animation duration */
+  animation: typing-pausing 3s infinite; /* animation duration */
 
   /* Add a delay at the beginning */
-  animation-delay: 3s; /* Adjust the initial delay duration */
+  animation-delay: 3s; /* initial delay duration */
 }
 
 @keyframes typing-pausing {
