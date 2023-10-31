@@ -93,14 +93,17 @@ body {
   background: #2076d3; /* Background color on hover */
 }
 
+
 @keyframes bounce {
   0% {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-10px); /* Adjust the bounce height */
+    transform: translateY(-3px); 
   }
 }
+
+
 
 
 /* Styling for the card titles */
@@ -111,14 +114,16 @@ body {
   animation: wobble 0.3s infinite alternate; /* Wobble animation effect */
 }
 
+/*
 @keyframes wobble {
   0% {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(5deg); /* wobble angle */
+    transform: rotate(5deg); 
   }
 }
+*/
 
 /* CSS for the paragraph text with typing and pausing animation */
 .typing-animation::before {
@@ -127,10 +132,10 @@ body {
   width: 0;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing-pausing 3s infinite; /* animation duration */
+  animation: typing-pausing 5s infinite; /* animation duration */
 
   /* Add a delay at the beginning */
-  animation-delay: 3s; /* initial delay duration */
+  animation-delay: 5s; /* initial delay duration */
 }
 
 @keyframes typing-pausing {
